@@ -1,6 +1,5 @@
 package com.pluralsight;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class BasicCalculator {
@@ -23,7 +22,7 @@ public class BasicCalculator {
         System.out.println("(D)ivide");
 
         // Selecting option
-        System.out.print("Enter the second number: ");
+        System.out.print("Enter your option: ");
         char choice = myScanner.nextLine().charAt(0);
 
         //Multiplying
